@@ -29,9 +29,12 @@ public class Main {
 
         System.out.println(appleBox.compare(orangeBox));
 
-        Box <Orange> emptyBox = new Box(oranges1, 2222.0f);
+        Box <Orange> emptyBox = new Box(oranges1, 1.5f);
         System.out.println(emptyBox.getWeight());
         emptyBox.changeBox(orangeBox);
+        System.out.println("Вес коробки после пополнения " + orangeBox.getWeight());
+        System.out.println("вес коробки после опустошения" + emptyBox.getWeight());
+
 
     }
 

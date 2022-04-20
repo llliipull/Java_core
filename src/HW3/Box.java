@@ -38,8 +38,8 @@ public class Box <T extends Fruit>{
     }
 
 
-    public void changeBox(Box box){
-        box.fruits.clear();
+    public void changeBox(Box<T> box){
+
         box.fruits.addAll(fruits);
         this.fruits.clear();
 
