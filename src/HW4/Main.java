@@ -28,12 +28,14 @@ public class Main {
 
 
         //задание 2
-        Map<String, List<String>> phones = new HashMap<>();
 
-        phones.put("Иванов", new ArrayList<> (Arrays.asList("132123", "1231223")));
-        phones.put("Петров", new ArrayList<> (Arrays.asList("132132423", "1231225673")));
-        phones.put("Сидоров", new ArrayList<> (Arrays.asList("1368762123", "123808981223")));
-        phones.put("Пупкин", new ArrayList<> (Arrays.asList("132198097823", "12378971223")));
-        phones.put("Иванов", new ArrayList<> (Arrays.asList("1321567523", "12312565423")));
+        Phones phones = new Phones();
+
+        phones.add("Иванов", "1321567523", "345435345");
+        phones.add("Петров", "132132423", "1231225673");
+        phones.add("Сидоров", "1368762123", "123808981223");
+        phones.add("Пупкин", "132198097823", "12378971223");
+        phones.add("Иванов","1321567523", "12312565423");
+
     }
 }
